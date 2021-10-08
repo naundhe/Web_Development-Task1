@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #ddd;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.section {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #ddd;
+}
+
+.container {
+    width: 80%;
+    display: block;
+    margin: auto;
+    padding-top: 70px;
+}
+
+.content-section {
+    width: 100%;
+}
+
+.content-section img {
+    float: right;
+    margin-left: 130px;
+    width: 500px;
+    height: auto;
+}
+
+.content-section h1 {
+    font-family: 'Times New Roman', Times, serif;
+    align-items: center;
+    font-size: 60px;
+    text-align: left;
+}
+
+.content-section .title h1 {
+    margin-top: 40px;
+    font-family: 'Allura', cursive;
+    text-transform: inherit;
+    font-size: 35px;
+}
+
+.content-section .content h3 {
+    margin-top: 20px;
+    color: #5d5d5d;
+    font-size: 21px;
+}
+
+.content-section .content p {
+    margin-top: 10px;
+    font-family: 'Allura', cursive;
+    /* font-family: sans-serif; */
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.content-section .social {
+    float: right;
+    margin: 40px 40px;
+    align-items: center;
+}
+
+.content-section .social i {
+    color: #a52a2a;
+    font-size: 30px;
+    padding: 0px 10px;
+}
+
+.content-section .social i:hover {
+    color: #3d3d3d;
+}
+
+.wrapper {
+    margin-top: 10%;
+}
+
+.wrapper h1 {
+    font-family: 'Allura', cursive;
+    font-size: 30px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.team {
+    display: flex;
+    justify-content: center;
+    width: auto;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.team .team_member {
+    background: #fff;
+    margin: 5px;
+    margin-bottom: 50px;
+    width: 300px;
+    padding: 20px;
+    line-height: 20px;
+    color: #8e8b8b;
+    position: relative;
+}
+
+.team .team_member h3 {
+    color: #81c644;
+    font-size: 26px;
+    margin-top: 50px;
+}
+
+.team .team_member p.role {
+    color: #1d1b1b;
+    margin: 12px 0;
+    font-size: 15px;
+    font-family: 'Allura', cursive;
+    text-transform: uppercase;
+}
+
+.team .team_member .team_img {
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: #fff;
+}
+
+.team .team_member .team_img img {
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+}
+
+.content-section .mission h1 {
+    font-family: 'Allura', cursive;
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+.content-section .mission p {
+    font-family: 'Allura', cursive;
+    margin-top: 30px;
+    font-size: 18px;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 80%;
+        display: block;
+        margin: auto;
+        padding-top: 30px;
+    }
+    .content-section {
+        float: none;
+        width: 100%;
+        display: block;
+        margin: auto;
+    }
+    .image-section {
+        float: none;
+        width: 100%;
+    }
+    .image-section img {
+        width: 100%;
+        height: auto;
+        display: block;
+        margin: auto;
+    }
+    .content-section .title {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-align: center;
+        font-size: 19px;
+    }
+    .content-section h1 {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 60px;
+        text-align: left;
+    }
+    .content-section .social {
+        text-align: center;
+    }
+}
